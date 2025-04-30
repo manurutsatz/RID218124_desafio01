@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    font-family: 'Inter';
+}
+
+#titulo-principal {
+    margin: 0;
+    font-size: 48px; 
+}
+
+#subtitulo-principal {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#menu-superior {
+    background-color: #303030;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding: 40px 62px;       
+    min-height: 250px;        
+    position: relative;
+}
+
+#menu-informacional{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px;
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+#menu-informacional p {
+    font-size: 20px;
+}
+
+#menu-informacional p strong {
+    font-size: 40px;
+}
+
+#menu-central{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 80px;
+}
+
+#menu-central h1 {
+   font-size: 40px;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+   font-family: 'Inter';
+   margin-bottom: 20px;
+   margin: 40px 50px;
+   font-weight: 450;
+   letter-spacing: 0px;
+   vertical-align: middle;
+
+}
+
+#menu-central p {
+    font-size: 20px;
+    font-family: 'Inter';
+    text-align: left;
+    margin: 40px 50px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+#texto-central{
+    max-width: 50%;
+}
+
+#projeto-interiores{
+    margin: 50px 25px 50px 200px;
+}
+
+#formulario{
+    font-family: 'Inter';
+    text-align: center;
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 50px 62px; 
+}
+
+#titulo-formulario{
+    font-family: 'Inter';
+    font-size: 32px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+input{
+    Width: 450px;
+    Height: 55px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0000004D;
+}
+
+button{
+    background-color: #C07212;
+    Width: 200px;
+    Height: 55px;
+    border-radius: 8px;
+    border: 0px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e38e25;
+    color: white;
+    transform: translateY(-4px);
+    transition-duration: 0.5s;
+
+}
